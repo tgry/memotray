@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MemoTray</title>
+<script src="./lib/window_main.js"></script>
+<script src="./lib/tab.js"></script>
+<script src="./lib/memo.js"></script>
+<script src="./lib/search.js"></script>
+<script src="./lib/external.js"></script>
+
+<link rel="stylesheet" href="./css/index.css" type="text/css" />
+
+</head>
+<body>
+	<div id="contents">
+		<div id="window_control_area">
+			<div id="minimum_button" title="最小化">&#8744;</div><div id="close_button" title="閉じる">&#x2613;</div>
+		</div>
+		<h1 id="title_bar">MemoTray</h1>
+		<div id="main_area">
+			<div id="tab_area">
+				<div id="add_tray" title="トレイの追加">＋</div>
+				<div id="tab_scroll_area"></div>
+			</div>
+			<div id="memo_area">
+				<div id="memo_view_area"></div>
+			</div>
+		</div>
+		<div id="side_bar">
+			<br>
+			<div id="add_memo_button"><img src="./img/new.png" title="新しいメモを作成"></div>
+			<div id="search_button"><img src="./img/search.png" title="検索"></div>
+			<div id="side_menu_button"><img src="./img/menu.png" title="メニュー"></div>
+		</div>
+		<div id="status_bar">
+		<p>MemoTray</p>
+		</div>
+	</div>
+</body>
+</html>
